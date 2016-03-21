@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EC4E7D1CA0A36E00C4961D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4E7C1CA0A36E00C4961D /* AppDelegate.swift */; };
+		18EC4E7F1CA0A36E00C4961D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4E7E1CA0A36E00C4961D /* ViewController.swift */; };
+		18EC4E821CA0A36E00C4961D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4E801CA0A36E00C4961D /* Main.storyboard */; };
+		18EC4E841CA0A36E00C4961D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4E831CA0A36E00C4961D /* Assets.xcassets */; };
+		18EC4E871CA0A36E00C4961D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4E851CA0A36E00C4961D /* LaunchScreen.storyboard */; };
+		18EC4E921CA0A36E00C4961D /* MedicalCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4E911CA0A36E00C4961D /* MedicalCalculatorTests.swift */; };
+		18EC4E9D1CA0A36E00C4961D /* MedicalCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4E9C1CA0A36E00C4961D /* MedicalCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EC4E8E1CA0A36E00C4961D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EC4E711CA0A36E00C4961D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EC4E781CA0A36E00C4961D;
+			remoteInfo = MedicalCalculator;
+		};
+		18EC4E991CA0A36E00C4961D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EC4E711CA0A36E00C4961D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EC4E781CA0A36E00C4961D;
+			remoteInfo = MedicalCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18EC4E791CA0A36E00C4961D /* MedicalCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC4E7C1CA0A36E00C4961D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EC4E7E1CA0A36E00C4961D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EC4E811CA0A36E00C4961D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EC4E831CA0A36E00C4961D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EC4E861CA0A36E00C4961D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EC4E881CA0A36E00C4961D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC4E8D1CA0A36E00C4961D /* MedicalCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC4E911CA0A36E00C4961D /* MedicalCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalCalculatorTests.swift; sourceTree = "<group>"; };
+		18EC4E931CA0A36E00C4961D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC4E981CA0A36E00C4961D /* MedicalCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC4E9C1CA0A36E00C4961D /* MedicalCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalCalculatorUITests.swift; sourceTree = "<group>"; };
+		18EC4E9E1CA0A36E00C4961D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EC4E761CA0A36E00C4961D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC4E8A1CA0A36E00C4961D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC4E951CA0A36E00C4961D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EC4E701CA0A36E00C4961D = {
+			isa = PBXGroup;
+			children = (
+				18EC4E7B1CA0A36E00C4961D /* MedicalCalculator */,
+				18EC4E901CA0A36E00C4961D /* MedicalCalculatorTests */,
+				18EC4E9B1CA0A36E00C4961D /* MedicalCalculatorUITests */,
+				18EC4E7A1CA0A36E00C4961D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EC4E7A1CA0A36E00C4961D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EC4E791CA0A36E00C4961D /* MedicalCalculator.app */,
+				18EC4E8D1CA0A36E00C4961D /* MedicalCalculatorTests.xctest */,
+				18EC4E981CA0A36E00C4961D /* MedicalCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EC4E7B1CA0A36E00C4961D /* MedicalCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				18EC4E7C1CA0A36E00C4961D /* AppDelegate.swift */,
+				18EC4E7E1CA0A36E00C4961D /* ViewController.swift */,
+				18EC4E801CA0A36E00C4961D /* Main.storyboard */,
+				18EC4E831CA0A36E00C4961D /* Assets.xcassets */,
+				18EC4E851CA0A36E00C4961D /* LaunchScreen.storyboard */,
+				18EC4E881CA0A36E00C4961D /* Info.plist */,
+			);
+			path = MedicalCalculator;
+			sourceTree = "<group>";
+		};
+		18EC4E901CA0A36E00C4961D /* MedicalCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EC4E911CA0A36E00C4961D /* MedicalCalculatorTests.swift */,
+				18EC4E931CA0A36E00C4961D /* Info.plist */,
+			);
+			path = MedicalCalculatorTests;
+			sourceTree = "<group>";
+		};
+		18EC4E9B1CA0A36E00C4961D /* MedicalCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18EC4E9C1CA0A36E00C4961D /* MedicalCalculatorUITests.swift */,
+				18EC4E9E1CA0A36E00C4961D /* Info.plist */,
+			);
+			path = MedicalCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EC4E781CA0A36E00C4961D /* MedicalCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC4EA11CA0A36E00C4961D /* Build configuration list for PBXNativeTarget "MedicalCalculator" */;
+			buildPhases = (
+				18EC4E751CA0A36E00C4961D /* Sources */,
+				18EC4E761CA0A36E00C4961D /* Frameworks */,
+				18EC4E771CA0A36E00C4961D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalCalculator;
+			productName = MedicalCalculator;
+			productReference = 18EC4E791CA0A36E00C4961D /* MedicalCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EC4E8C1CA0A36E00C4961D /* MedicalCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC4EA41CA0A36E00C4961D /* Build configuration list for PBXNativeTarget "MedicalCalculatorTests" */;
+			buildPhases = (
+				18EC4E891CA0A36E00C4961D /* Sources */,
+				18EC4E8A1CA0A36E00C4961D /* Frameworks */,
+				18EC4E8B1CA0A36E00C4961D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EC4E8F1CA0A36E00C4961D /* PBXTargetDependency */,
+			);
+			name = MedicalCalculatorTests;
+			productName = MedicalCalculatorTests;
+			productReference = 18EC4E8D1CA0A36E00C4961D /* MedicalCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18EC4E971CA0A36E00C4961D /* MedicalCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC4EA71CA0A36E00C4961D /* Build configuration list for PBXNativeTarget "MedicalCalculatorUITests" */;
+			buildPhases = (
+				18EC4E941CA0A36E00C4961D /* Sources */,
+				18EC4E951CA0A36E00C4961D /* Frameworks */,
+				18EC4E961CA0A36E00C4961D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EC4E9A1CA0A36E00C4961D /* PBXTargetDependency */,
+			);
+			name = MedicalCalculatorUITests;
+			productName = MedicalCalculatorUITests;
+			productReference = 18EC4E981CA0A36E00C4961D /* MedicalCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EC4E711CA0A36E00C4961D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sandy Zhang";
+				TargetAttributes = {
+					18EC4E781CA0A36E00C4961D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					18EC4E8C1CA0A36E00C4961D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18EC4E781CA0A36E00C4961D;
+					};
+					18EC4E971CA0A36E00C4961D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18EC4E781CA0A36E00C4961D;
+					};
+				};
+			};
+			buildConfigurationList = 18EC4E741CA0A36E00C4961D /* Build configuration list for PBXProject "MedicalCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EC4E701CA0A36E00C4961D;
+			productRefGroup = 18EC4E7A1CA0A36E00C4961D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EC4E781CA0A36E00C4961D /* MedicalCalculator */,
+				18EC4E8C1CA0A36E00C4961D /* MedicalCalculatorTests */,
+				18EC4E971CA0A36E00C4961D /* MedicalCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EC4E771CA0A36E00C4961D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC4E871CA0A36E00C4961D /* LaunchScreen.storyboard in Resources */,
+				18EC4E841CA0A36E00C4961D /* Assets.xcassets in Resources */,
+				18EC4E821CA0A36E00C4961D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC4E8B1CA0A36E00C4961D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC4E961CA0A36E00C4961D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EC4E751CA0A36E00C4961D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC4E7F1CA0A36E00C4961D /* ViewController.swift in Sources */,
+				18EC4E7D1CA0A36E00C4961D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC4E891CA0A36E00C4961D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC4E921CA0A36E00C4961D /* MedicalCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EC4E941CA0A36E00C4961D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC4E9D1CA0A36E00C4961D /* MedicalCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EC4E8F1CA0A36E00C4961D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EC4E781CA0A36E00C4961D /* MedicalCalculator */;
+			targetProxy = 18EC4E8E1CA0A36E00C4961D /* PBXContainerItemProxy */;
+		};
+		18EC4E9A1CA0A36E00C4961D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EC4E781CA0A36E00C4961D /* MedicalCalculator */;
+			targetProxy = 18EC4E991CA0A36E00C4961D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18EC4E801CA0A36E00C4961D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EC4E811CA0A36E00C4961D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EC4E851CA0A36E00C4961D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EC4E861CA0A36E00C4961D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EC4E9F1CA0A36E00C4961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EC4EA01CA0A36E00C4961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EC4EA21CA0A36E00C4961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedicalCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandyzhang.MedicalCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18EC4EA31CA0A36E00C4961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedicalCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandyzhang.MedicalCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18EC4EA51CA0A36E00C4961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedicalCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandyzhang.MedicalCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicalCalculator.app/MedicalCalculator";
+			};
+			name = Debug;
+		};
+		18EC4EA61CA0A36E00C4961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedicalCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandyzhang.MedicalCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicalCalculator.app/MedicalCalculator";
+			};
+			name = Release;
+		};
+		18EC4EA81CA0A36E00C4961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MedicalCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandyzhang.MedicalCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MedicalCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18EC4EA91CA0A36E00C4961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MedicalCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandyzhang.MedicalCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MedicalCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EC4E741CA0A36E00C4961D /* Build configuration list for PBXProject "MedicalCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC4E9F1CA0A36E00C4961D /* Debug */,
+				18EC4EA01CA0A36E00C4961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EC4EA11CA0A36E00C4961D /* Build configuration list for PBXNativeTarget "MedicalCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC4EA21CA0A36E00C4961D /* Debug */,
+				18EC4EA31CA0A36E00C4961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18EC4EA41CA0A36E00C4961D /* Build configuration list for PBXNativeTarget "MedicalCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC4EA51CA0A36E00C4961D /* Debug */,
+				18EC4EA61CA0A36E00C4961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18EC4EA71CA0A36E00C4961D /* Build configuration list for PBXNativeTarget "MedicalCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC4EA81CA0A36E00C4961D /* Debug */,
+				18EC4EA91CA0A36E00C4961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EC4E711CA0A36E00C4961D /* Project object */;
+}
