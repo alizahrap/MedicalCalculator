@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		18EC4E7D1CA0A36E00C4961D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4E7C1CA0A36E00C4961D /* AppDelegate.swift */; };
-		18EC4E7F1CA0A36E00C4961D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4E7E1CA0A36E00C4961D /* ViewController.swift */; };
-		18EC4E821CA0A36E00C4961D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4E801CA0A36E00C4961D /* Main.storyboard */; };
 		18EC4E841CA0A36E00C4961D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4E831CA0A36E00C4961D /* Assets.xcassets */; };
-		18EC4E871CA0A36E00C4961D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4E851CA0A36E00C4961D /* LaunchScreen.storyboard */; };
 		18EC4E921CA0A36E00C4961D /* MedicalCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4E911CA0A36E00C4961D /* MedicalCalculatorTests.swift */; };
 		18EC4E9D1CA0A36E00C4961D /* MedicalCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4E9C1CA0A36E00C4961D /* MedicalCalculatorUITests.swift */; };
+		18EC4EAB1CA0A37B00C4961D /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EC4EAA1CA0A37B00C4961D /* Firebase.framework */; };
+		18EC4EAD1CA0A39900C4961D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EC4EAC1CA0A39900C4961D /* libc++.tbd */; };
+		18EC4EAF1CA0A3A500C4961D /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EC4EAE1CA0A3A500C4961D /* libicucore.tbd */; };
+		18EC4EB11CA0A3AB00C4961D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EC4EB01CA0A3AB00C4961D /* CFNetwork.framework */; };
+		18EC4EB31CA0A3B100C4961D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EC4EB21CA0A3B100C4961D /* Security.framework */; };
+		18EC4EB51CA0A3B900C4961D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EC4EB41CA0A3B900C4961D /* SystemConfiguration.framework */; };
+		18EC4EBC1CA0A3F000C4961D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4EB61CA0A3F000C4961D /* Constants.swift */; };
+		18EC4EBD1CA0A3F000C4961D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4EB71CA0A3F000C4961D /* DataService.swift */; };
+		18EC4EBE1CA0A3F000C4961D /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4EB81CA0A3F000C4961D /* Drug.swift */; };
+		18EC4EBF1CA0A3F000C4961D /* calculateCrClModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4EB91CA0A3F000C4961D /* calculateCrClModel.swift */; };
+		18EC4EC01CA0A3F000C4961D /* DrugCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4EBA1CA0A3F000C4961D /* DrugCellTableViewCell.swift */; };
+		18EC4EC11CA0A3F000C4961D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4EBB1CA0A3F000C4961D /* Main.storyboard */; };
+		18EC4ECD1CA0A43500C4961D /* DrugFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4EC51CA0A43500C4961D /* DrugFeedTableViewController.swift */; };
+		18EC4ECE1CA0A43500C4961D /* AddDrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4EC61CA0A43500C4961D /* AddDrugViewController.swift */; };
+		18EC4ECF1CA0A43500C4961D /* CrClCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4EC71CA0A43500C4961D /* CrClCalcViewController.swift */; };
+		18EC4ED01CA0A43500C4961D /* calcnavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4EC81CA0A43500C4961D /* calcnavViewController.swift */; };
+		18EC4ED11CA0A43500C4961D /* bmiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4EC91CA0A43500C4961D /* bmiViewController.swift */; };
+		18EC4ED21CA0A43500C4961D /* bmiMetricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4ECA1CA0A43500C4961D /* bmiMetricViewController.swift */; };
+		18EC4ED51CA0A60A00C4961D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC4ED41CA0A60A00C4961D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +52,7 @@
 /* Begin PBXFileReference section */
 		18EC4E791CA0A36E00C4961D /* MedicalCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EC4E7C1CA0A36E00C4961D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18EC4E7E1CA0A36E00C4961D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18EC4E811CA0A36E00C4961D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18EC4E831CA0A36E00C4961D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18EC4E861CA0A36E00C4961D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EC4E881CA0A36E00C4961D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18EC4E8D1CA0A36E00C4961D /* MedicalCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EC4E911CA0A36E00C4961D /* MedicalCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalCalculatorTests.swift; sourceTree = "<group>"; };
@@ -47,6 +60,25 @@
 		18EC4E981CA0A36E00C4961D /* MedicalCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EC4E9C1CA0A36E00C4961D /* MedicalCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalCalculatorUITests.swift; sourceTree = "<group>"; };
 		18EC4E9E1CA0A36E00C4961D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC4EAA1CA0A37B00C4961D /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		18EC4EAC1CA0A39900C4961D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		18EC4EAE1CA0A3A500C4961D /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		18EC4EB01CA0A3AB00C4961D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18EC4EB21CA0A3B100C4961D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18EC4EB41CA0A3B900C4961D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18EC4EB61CA0A3F000C4961D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18EC4EB71CA0A3F000C4961D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		18EC4EB81CA0A3F000C4961D /* Drug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drug.swift; sourceTree = "<group>"; };
+		18EC4EB91CA0A3F000C4961D /* calculateCrClModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculateCrClModel.swift; sourceTree = "<group>"; };
+		18EC4EBA1CA0A3F000C4961D /* DrugCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugCellTableViewCell.swift; sourceTree = "<group>"; };
+		18EC4EBB1CA0A3F000C4961D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18EC4EC51CA0A43500C4961D /* DrugFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugFeedTableViewController.swift; sourceTree = "<group>"; };
+		18EC4EC61CA0A43500C4961D /* AddDrugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDrugViewController.swift; sourceTree = "<group>"; };
+		18EC4EC71CA0A43500C4961D /* CrClCalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrClCalcViewController.swift; sourceTree = "<group>"; };
+		18EC4EC81CA0A43500C4961D /* calcnavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calcnavViewController.swift; sourceTree = "<group>"; };
+		18EC4EC91CA0A43500C4961D /* bmiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bmiViewController.swift; sourceTree = "<group>"; };
+		18EC4ECA1CA0A43500C4961D /* bmiMetricViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bmiMetricViewController.swift; sourceTree = "<group>"; };
+		18EC4ED31CA0A60A00C4961D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EC4EAB1CA0A37B00C4961D /* Firebase.framework in Frameworks */,
+				18EC4EB51CA0A3B900C4961D /* SystemConfiguration.framework in Frameworks */,
+				18EC4EB31CA0A3B100C4961D /* Security.framework in Frameworks */,
+				18EC4EB11CA0A3AB00C4961D /* CFNetwork.framework in Frameworks */,
+				18EC4EAF1CA0A3A500C4961D /* libicucore.tbd in Frameworks */,
+				18EC4EAD1CA0A39900C4961D /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +119,11 @@
 				18EC4E901CA0A36E00C4961D /* MedicalCalculatorTests */,
 				18EC4E9B1CA0A36E00C4961D /* MedicalCalculatorUITests */,
 				18EC4E7A1CA0A36E00C4961D /* Products */,
+				18EC4EAC1CA0A39900C4961D /* libc++.tbd */,
+				18EC4EAE1CA0A3A500C4961D /* libicucore.tbd */,
+				18EC4EB21CA0A3B100C4961D /* Security.framework */,
+				18EC4EB41CA0A3B900C4961D /* SystemConfiguration.framework */,
+				18EC4EB01CA0A3AB00C4961D /* CFNetwork.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +140,18 @@
 		18EC4E7B1CA0A36E00C4961D /* MedicalCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				18EC4EC21CA0A42400C4961D /* View Controller */,
 				18EC4E7C1CA0A36E00C4961D /* AppDelegate.swift */,
-				18EC4E7E1CA0A36E00C4961D /* ViewController.swift */,
-				18EC4E801CA0A36E00C4961D /* Main.storyboard */,
+				18EC4EB61CA0A3F000C4961D /* Constants.swift */,
+				18EC4EB71CA0A3F000C4961D /* DataService.swift */,
+				18EC4EB81CA0A3F000C4961D /* Drug.swift */,
+				18EC4EB91CA0A3F000C4961D /* calculateCrClModel.swift */,
+				18EC4EBA1CA0A3F000C4961D /* DrugCellTableViewCell.swift */,
+				18EC4EBB1CA0A3F000C4961D /* Main.storyboard */,
 				18EC4E831CA0A36E00C4961D /* Assets.xcassets */,
-				18EC4E851CA0A36E00C4961D /* LaunchScreen.storyboard */,
+				18EC4ED41CA0A60A00C4961D /* LaunchScreen.storyboard */,
 				18EC4E881CA0A36E00C4961D /* Info.plist */,
+				18EC4EAA1CA0A37B00C4961D /* Firebase.framework */,
 			);
 			path = MedicalCalculator;
 			sourceTree = "<group>";
@@ -123,6 +172,19 @@
 				18EC4E9E1CA0A36E00C4961D /* Info.plist */,
 			);
 			path = MedicalCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		18EC4EC21CA0A42400C4961D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EC4EC51CA0A43500C4961D /* DrugFeedTableViewController.swift */,
+				18EC4EC61CA0A43500C4961D /* AddDrugViewController.swift */,
+				18EC4EC71CA0A43500C4961D /* CrClCalcViewController.swift */,
+				18EC4EC81CA0A43500C4961D /* calcnavViewController.swift */,
+				18EC4EC91CA0A43500C4961D /* bmiViewController.swift */,
+				18EC4ECA1CA0A43500C4961D /* bmiMetricViewController.swift */,
+			);
+			name = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +255,7 @@
 				TargetAttributes = {
 					18EC4E781CA0A36E00C4961D = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9NMHRJPP6N;
 					};
 					18EC4E8C1CA0A36E00C4961D = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -229,9 +292,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EC4E871CA0A36E00C4961D /* LaunchScreen.storyboard in Resources */,
+				18EC4ED51CA0A60A00C4961D /* LaunchScreen.storyboard in Resources */,
 				18EC4E841CA0A36E00C4961D /* Assets.xcassets in Resources */,
-				18EC4E821CA0A36E00C4961D /* Main.storyboard in Resources */,
+				18EC4EC11CA0A3F000C4961D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EC4E7F1CA0A36E00C4961D /* ViewController.swift in Sources */,
+				18EC4ED11CA0A43500C4961D /* bmiViewController.swift in Sources */,
+				18EC4ECF1CA0A43500C4961D /* CrClCalcViewController.swift in Sources */,
 				18EC4E7D1CA0A36E00C4961D /* AppDelegate.swift in Sources */,
+				18EC4EBF1CA0A3F000C4961D /* calculateCrClModel.swift in Sources */,
+				18EC4ECE1CA0A43500C4961D /* AddDrugViewController.swift in Sources */,
+				18EC4EBC1CA0A3F000C4961D /* Constants.swift in Sources */,
+				18EC4EBE1CA0A3F000C4961D /* Drug.swift in Sources */,
+				18EC4ED21CA0A43500C4961D /* bmiMetricViewController.swift in Sources */,
+				18EC4ED01CA0A43500C4961D /* calcnavViewController.swift in Sources */,
+				18EC4EBD1CA0A3F000C4961D /* DataService.swift in Sources */,
+				18EC4EC01CA0A3F000C4961D /* DrugCellTableViewCell.swift in Sources */,
+				18EC4ECD1CA0A43500C4961D /* DrugFeedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +366,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18EC4E801CA0A36E00C4961D /* Main.storyboard */ = {
+		18EC4ED41CA0A60A00C4961D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18EC4E811CA0A36E00C4961D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18EC4E851CA0A36E00C4961D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18EC4E861CA0A36E00C4961D /* Base */,
+				18EC4ED31CA0A60A00C4961D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../../MedicalCalcscopy/FirebaseJokes;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,10 +463,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MedicalCalculator",
+				);
 				INFOPLIST_FILE = MedicalCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandyzhang.MedicalCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +481,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MedicalCalculator",
+				);
 				INFOPLIST_FILE = MedicalCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandyzhang.MedicalCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
